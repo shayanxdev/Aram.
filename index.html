@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080609" />
+  <meta name="description" content="یه سورپرایز کوچولو برای آرام ❤️" />
+  <title>برای آرام من ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+  <div class="scroll-progress"></div>
+
+  <!-- Intro -->
+  <div class="intro" id="intro">
+    <div class="intro-stars"></div>
+    <div class="intro-content">
+      <span class="intro-kicker">یه چیزی فقط برای تو</span>
+      <div class="intro-heart">♥</div>
+      <h1>برای <span>آرام</span></h1>
+      <p>یه دنیای کوچولو ساختم فقط واسه تو</p>
+      <button class="enter-btn" id="enterBtn">
+        <span>بیا تو ببین چی واست ساختم</span>
+        <span class="btn-arrow">←</span>
+      </button>
+      <small>از طرف کسی که خیلی دوستت داره</small>
+    </div>
+  </div>
+
+  <main id="mainContent" class="is-hidden">
+
+    <header class="topbar">
+      <a href="#home" class="brand">A<span>.</span></a>
+      <nav>
+        <a href="#home">خونه</a>
+        <a href="#memories">خاطره‌هامون</a>
+        <a href="#letter">یه حرف باهات دارم</a>
+      </nav>
+      <button class="music-btn" id="musicBtn" aria-label="پخش موسیقی">
+        <span class="music-icon">♫</span>
+        <span id="musicLabel">یه آهنگ بزنیم؟</span>
+      </button>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><i></i> امروز همه چی واسه توئه</span>
+        <h1>می‌دونی چیه؟<br /><span>خیلی قشنگی</span></h1>
+        <p class="hero-description">
+          نمی‌دونم چجوری بگم ولی بعضی آدما یه جوری وارد زندگیت می‌شن
+          که بعدش دیگه هیچ چیزی مثل قبل نیست
+          تو یکی از همون آدمایی آرام
+        </p>
+        <a class="primary-btn" href="#memories">
+          <span>بیا یه کم پایین‌تر</span>
+          <span>↓</span>
+        </a>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="heart-core">
+          <span>♥</span>
+        </div>
+        <span class="floating-word word-one">you</span>
+        <span class="floating-word word-two">my favorite</span>
+        <span class="floating-word word-three">♡</span>
+        <div class="art-caption">فقط واسه تو</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>بیا پایین‌تر</span>
+        <div class="scroll-line"></div>
+        <span>01 — 04</span>
+      </div>
+    </section>
+
+    <!-- Birthday -->
+    <section class="birthday section">
+      <div class="section-label reveal">امروز روز توئه <span>✳</span></div>
+      <div class="birthday-text reveal">
+        <p class="soft-line">بالاخره اون روز قشنگ رسید</p>
+        <h2>تولدت مبارک دختر قشنگم<br /><span>امیدوارم همیشه بخندی</span></h2>
+        <p class="birthday-note">
+          از ته دلم آرزو می‌کنم امسال برات پر از اتفاقای خوب باشه
+          به هر چیزی که دلت می‌خواد برسی
+          هیچ غمی دلتو نگیره و همیشه همونقدر که لایقشی خوشحال باشی
+        </p>
+      </div>
+      <div class="birthday-decoration">HAPPY<br />BIRTHDAY</div>
+    </section>
+
+    <!-- Memories -->
+    <section class="memories section" id="memories">
+      <div class="section-heading reveal">
+        <div>
+          <span class="eyebrow"><i></i> یه عالمه حس خوب</span>
+          <h2>چیزایی که <span>دوست دارم</span></h2>
+        </div>
+        <p>بعضی چیزا شاید خیلی ساده باشن<br />ولی برای من کلی ارزش دارن</p>
+      </div>
+
+      <div class="memory-grid">
+        <button class="memory-card memory-one reveal" data-title="همین خودت" data-text="نمی‌دونم خودت می‌دونی یا نه ولی همین که خودتی و با همه قشنگیای خودت توی دنیایی برام خیلی ارزش داره ❤️">
+          <div class="memory-image image-one">
+            <span class="memory-number">01</span>
+            <span class="memory-symbol">✦</span>
+          </div>
+          <div class="memory-info">
+            <span>JUST YOU</span>
+            <h3>همین خودت</h3>
+            <span class="memory-open">بزن روش ببین چی میگم ↗</span>
+          </div>
+        </button>
+
+        <button class="memory-card memory-two reveal" data-title="خنده‌هات" data-text="کاش می‌دونستی چقدر قشنگه وقتی خوشحالی و می‌خندی امیدوارم همیشه یه دلیل خوب برای خندیدن داشته باشی">
+          <div class="memory-image image-two">
+            <span class="memory-number">02</span>
+            <span class="memory-symbol">♡</span>
+          </div>
+          <div class="memory-info">
+            <span>YOUR SMILE</span>
+            <h3>خنده‌هات</h3>
+            <span class="memory-open">بزن روش ببین چی میگم ↗</span>
+          </div>
+        </button>
+
+        <button class="memory-card memory-three reveal" data-title="روزای قشنگی که قراره بیان" data-text="هنوز کلی اتفاق قشنگ مونده که باید تجربه کنی پس آماده باش که قراره کلی خاطره خوب بسازی">
+          <div class="memory-image image-three">
+            <span class="memory-number">03</span>
+            <span class="memory-symbol">✧</span>
+          </div>
+          <div class="memory-info">
+            <span>MORE TO COME</span>
+            <h3>روزای قشنگی که قراره بیان</h3>
+            <span class="memory-open">بزن روش ببین چی میگم ↗</span>
+          </div>
+        </button>
+      </div>
+      <p class="memory-hint">روی اینا کلیک کن یه چیزایی واست نوشتم ❤️</p>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote-section section">
+      <div class="quote-mark">“</div>
+      <p class="quote-text reveal">
+        می‌دونی بین این همه آدم<br />
+        <span>بودن تو برام یه چیز دیگه‌ست</span>
+      </p>
+      <span class="quote-sign">از ته دلم برای تو</span>
+    </section>
+
+    <!-- Letter -->
+    <section class="letter-section section" id="letter">
+      <div class="letter-intro reveal">
+        <span class="eyebrow"><i></i> یه چیزی می‌خوام بهت بگم</span>
+        <h2>یه نامه کوچولو<br />واسه <span>خودت</span></h2>
+        <p>خب دیگه این یکی رو باید خودت باز کنی 😌</p>
+      </div>
+
+      <div class="letter-wrap reveal">
+        <div class="letter-glow"></div>
+        <div class="letter-card" id="letterCard">
+          <div class="letter-top">
+            <span>برای آرام جان</span>
+            <span>♡</span>
+          </div>
+          <div class="letter-seal">A</div>
+          <p class="letter-preview">یه عالمه حرف هست که می‌خوام بهت بگم...</p>
+          <button class="letter-btn" id="openLetter">بازش کن دیگه ♥ <span>↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Finale -->
+    <section class="finale section" id="finale">
+      <div class="finale-stars"></div>
+      <span class="eyebrow reveal"><i></i> یه چیز دیگه مونده</span>
+      <h2 class="reveal">تولدت مبارک<br /><span>آرام قشنگم</span></h2>
+      <p class="finale-message reveal">
+        امیدوارم همیشه دلت خوش باشه<br />
+        همیشه بخندی و هیچ چیزی نتونه لبخندتو ازت بگیره<br />
+        به همه آرزوهات برسی و بهترین روزای زندگیتو تجربه کنی<br />
+        خلاصه که خیلی خوشحالم که توی این دنیایی ❤️
+      </p>
+      <button class="wish-btn reveal" id="wishBtn">
+        <span>چشماتو ببند و یه آرزو کن ✨</span>
+      </button>
+      <div class="finale-footer">از طرف من برای تو ♥</div>
+    </section>
+
+    <footer>
+      <span>با کلی عشق ساخته شده</span>
+      <span>برای آرام <b>♥</b></span>
+    </footer>
+  </main>
+
+  <!-- Memory modal -->
+  <div class="modal" id="memoryModal">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-box">
+      <button class="modal-close" data-close="true">×</button>
+      <span class="modal-heart">♡</span>
+      <span class="modal-kicker">یه حرف کوچولو</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <!-- Letter modal -->
+  <div class="modal" id="letterModal">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-box letter-modal-box">
+      <button class="modal-close" data-close="true">×</button>
+      <span class="modal-kicker">از ته دلم برای تو</span>
+      <h3>آرام جانم...</h3>
+      <p>
+        نمی‌دونم از کجا شروع کنم فقط می‌خوام بدونی که امروز برام یه روز خاصه
+        چون روزیه که تو به دنیا اومدی ❤️
+        <br /><br />
+        امیدوارم توی این سال جدید زندگیت کلی اتفاق خوب منتظرت باشه
+        هر چیزی که ته دلت می‌خوای به دست بیاری
+        هر جا که دوست داری بری و هر آرزویی که داری بهش برسی
+        <br /><br />
+        دلم می‌خواد همیشه خوشحال باشی و هیچ وقت اون لبخند قشنگت از بین نره
+        حواست به خودت باشه دختر
+        چون خیلی بیشتر از چیزی که فکر می‌کنی ارزشمندی
+        <br /><br />
+        خلاصه که تولدت مبارک آرام من
+        امیدوارم امسال یکی از بهترین سالای زندگیت باشه
+        دوستت دارم ❤️
+      </p>
+      <span class="letter-end">از طرف من برای تو ♥</span>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">آرزوت رو به دنیا بسپار آرام ✨</div>
+
+  <audio id="bgMusic" src="assets/music.mp3" loop preload="none"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
